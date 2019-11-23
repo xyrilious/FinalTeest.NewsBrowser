@@ -1,0 +1,21 @@
+﻿<Window x:Class="XyrilleMamalateo.NewsBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XyrilleMamalateo.NewsBrowser"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TreeView x:Name="TreeView1" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="792" SelectedItemChanged="TreeView1_SelectedItemChanged"/>
+        <Label x:Name="lblTitle" Content="Label" HorizontalAlignment="Left" Height="32" Margin="10,75,0,0" VerticalAlignment="Top" Width="211"/>
+        <Label x:Name="lblSourceName" Content="Label" HorizontalAlignment="Left" Height="32" Margin="10,107,0,0" VerticalAlignment="Top" Width="211"/>
+        <Label x:Name="lblDesc" Content="Label" HorizontalAlignment="Left" Height="46" Margin="10,171,0,0" VerticalAlignment="Top" Width="211"/>
+        <Label x:Name="lblAuthor" Content="Label" HorizontalAlignment="Left" Height="32" Margin="10,139,0,0" VerticalAlignment="Top" Width="211"/>
+        <Label x:Name="lblDate" Content="Label" HorizontalAlignment="Left" Height="48" Margin="10,222,0,0" VerticalAlignment="Top" Width="211"/>
+        <Image x:Name="imgNews" HorizontalAlignment="Left" Height="170" Margin="284,70,0,0" VerticalAlignment="Top" Width="341"/>
+        <TextBlock x:Name="txtContent" HorizontalAlignment="Left" Height="134" Margin="10,275,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="772" />
+
+    </Grid>
+
+</Window>
